@@ -1,0 +1,170 @@
+/* header */
+#navigationBar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.mytitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navigation {
+    display: flex;
+    width: 49%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    width: 52%;
+    align-items: center;
+    justify-content: flex-end;
+}
+#social {
+    padding-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navigation li {
+    cursor: pointer;
+    text-decoration: none;
+  }
+.inline-block {
+    display: inline-block;
+    padding-right: 50px;
+}
+#highlight {
+    text-decoration: underline;
+  }
+  
+/* body */
+body {
+    margin: 0;
+}
+.herosection {
+    position: relative;
+}
+#homebg {
+    border-bottom: 1px solid #EAEAEE;
+    max-height: 600px;
+    height: 70vh;
+    width: 100%;
+}
+.herowritten {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#text1 {
+    position: absolute;
+    top: 65px;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+#text2 {
+    position: absolute;
+    top: 85px;
+    text-align: center;
+    width: 100%;
+    font-family: 'EB Garamond', serif;
+    font-size: 65px;
+}
+#text3 {
+    position: absolute;
+    top: 250px;
+    text-align: center;
+    width: 100%;
+    font-family: "Leelawadee UI";
+    font-size: 20px;
+}
+.button {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #346EAA;
+    border: none;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    padding: 20px 70px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 33px;
+}
+
+.tbd {
+    text-align: center;
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EAEAEE;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+.footericons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+#footersocial {
+    padding-right: 25px;
+    padding-left: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+#footernote {
+    font-family: "Leelawadee UI";
+    font-size: 18px;
+}
+
+/* My Projects */
+#projectTitle {
+    text-align: center;
+    height: 30px;
+}
+.projectGrid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    place-items: start center;
+}
+.projectBox {
+    width: 500px;
+    margin: 0;
+    padding: 10px;
+}
+.leftProjects {
+    margin-left: 30%;
+}
+.rightProjects {
+    margin-right: 30%;
+}
+.projectImages {
+    border: 1px solid rgb(185, 185, 185);
+    cursor: pointer;
+}
