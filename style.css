@@ -144,10 +144,10 @@ body {
 /* My Projects */
 #projectTitle {
     text-align: center;
-    height: 30px;
+    font-size: 30px;
 }
 .projectGrid {
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0px;
@@ -156,7 +156,10 @@ body {
 .projectBox {
     width: 500px;
     margin: 0;
-    padding: 10px;
+    padding: 20px;
+}
+.projectBox p {
+    font-size: 18px;
 }
 .leftProjects {
     margin-left: 30%;
@@ -167,4 +170,60 @@ body {
 .projectImages {
     border: 1px solid rgb(185, 185, 185);
     cursor: pointer;
+    border-radius: 10px;
+}
+
+/* About Me */
+.aboutMe {
+    background-color: #EAEAEE;
+    padding: 2%;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titles {
+    font-size: 30px;
+    margin-left: 5%;
+}
+.aboutWritten {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 80%;
+    font-size: 18px;
+    line-height: 30px;
+}
+#profile {
+    margin-right: 5%;
+    margin-top: 2%;
+    width: 500px;
+    height: auto;
+}
+
+.mySkills {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.skillsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0px;
+    place-items: start center;
+}
+.skillsBox {
+    width: 85%;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.skillsBox p {
+    font-size: 18px;
+}
+.leftSkill {
+    margin-left: 5%;
+}
+.rightSkill {
+    margin-right: 5%;
 }
