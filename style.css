@@ -185,26 +185,30 @@ body {
 }
 .titles {
     font-size: 30px;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .aboutWritten {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    margin-left: 10%;
     width: 80%;
     font-size: 18px;
     line-height: 30px;
 }
 #profile {
-    margin-right: 5%;
+    margin-right: 10%;
     margin-top: 2%;
-    width: 500px;
-    height: auto;
+    margin-bottom: 2%;
+    width: 350px;
 }
+
 
 .mySkills {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+.skillT {
+    margin-left: 8.75%;
 }
 .skillsGrid {
     display: grid;
@@ -214,7 +218,7 @@ body {
     place-items: start center;
 }
 .skillsBox {
-    width: 85%;
+    width: 80%;
     margin: 0;
     padding-bottom: 20px;
 }
@@ -222,8 +226,8 @@ body {
     font-size: 18px;
 }
 .leftSkill {
-    margin-left: 5%;
+    margin-left: 15%;
 }
 .rightSkill {
-    margin-right: 5%;
+    margin-right: 15%;
 }
