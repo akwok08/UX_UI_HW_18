@@ -88,7 +88,7 @@ body {
 }
 #text1 {
     position: absolute;
-    top: 65px;
+    top: 10%;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
@@ -96,7 +96,7 @@ body {
 }
 #text2 {
     position: absolute;
-    top: 85px;
+    top: 12%;
     text-align: center;
     width: 100%;
     font-family: 'EB Garamond', serif;
@@ -104,7 +104,7 @@ body {
 }
 #text3 {
     position: absolute;
-    top: 250px;
+    top: 42%;
     text-align: center;
     width: 100%;
     font-family: "Leelawadee UI";
@@ -112,7 +112,7 @@ body {
 }
 .button {
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -320,6 +320,7 @@ body {
     .button {
         font-size: 20px;
         padding: 20px 40px;
+        top: 85%;
     }
     .projectGrid {
         display: flex;
